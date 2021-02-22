@@ -1,4 +1,4 @@
-FFROM python:3.7.5-slim
+FROM python:3.7.5-slim
 
 RUN apt-get update && apt-get install -y git gcc python3-dev
 
